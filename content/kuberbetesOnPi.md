@@ -5,6 +5,7 @@ slug: Kubernetes-on-Rasapberry-Pi
 status: published
 
 # 2nd post for my Blog, This looks interesting.
+[kuberbetes_icon]: {static}/images/kubernetes.jpg
 
 Over at <https://opensource.com/downloads/kubernetes-raspberry-pi> is an interesting
 article on how to make a Kubernetes cluster with Raspberry Pi's.
