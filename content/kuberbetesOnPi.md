@@ -6,7 +6,7 @@ status: published
 
 # 2nd post for my Blog, This looks interesting.
 
-Over at [opensource.com][https://opensource.com/downloads/kubernetes-raspberry-pi] is an interesting
+Over at [opensource.com](https://opensource.com/downloads/kubernetes-raspberry-pi) is an interesting
 article to make a Kubernetes cluster with Raspberry Pi's.
 
 You get to download a PDF and play with some pretty fun things here. 
