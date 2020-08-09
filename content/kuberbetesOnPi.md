@@ -1,4 +1,4 @@
-Title: Kebernetes for RaspberryPi
+Title: Kubernetes for RaspberryPi
 date: 2020-08-09 10:09
 author: Ben Castan
 slug: Kubernetes-on-Rasapberry-Pi
