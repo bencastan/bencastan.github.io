@@ -1,75 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <title>My Bloging Log</title>
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://bencastan.github.io/theme/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="https://bencastan.github.io/theme/css/pygments.css" type="text/css" />
+        <link rel="stylesheet" href="https://bencastan.github.io/theme/css/font-awesome.css" type="text/css" />
         <meta charset="utf-8" />
-        <title>First Post on My Sweet New Blog</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Bloging Log Atom Feed" />
+      
+
+        <!-- Javascript-->
+        <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script async type="text/javascript"> 
+        $(function() {
+            function invisibleMenu() {
+                var now = 0;
+                var pixels = 300;
+                var opacity = -1;
+
+                var move = function() {
+                    now = $(window).scrollTop();
+                    if (now > pixels && opacity !== 0)
+                        opacity = 0;
+                    else if (now < pixels){
+                        // Depends on the position not if scrolls down or up
+                        opacity = (1 - now/pixels);
+                    }
+                    $("div.navigation").css({"opacity": opacity});
+                }
+                $(window).scroll(move);
+                move();
+            }
+            invisibleMenu();
+          });
+          </script> 
 </head>
 
 <body id="index" class="home">
+     <div class="navigation">
+        <ol class="nav">
+          <li class="current"><a href="https://bencastan.github.io">Blog</a> </li>
+          <li><a href="https://bencastan.github.io/archives.html">Archive</a></li>
+          <li><a href="https://bencastan.github.io/tags.html">Tags</a> </li>
+          <li><a href="">RSS</a> </li>
+        </ol>
+      </div>
         <header id="banner" class="body">
-                <h1><a href="/">My Bloging Log </a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                    <li class="active"><a href="/category/misc.html">misc</a></li>
-                </ul></nav>
+                <div class="banner"><a href="https://bencastan.github.io">My Bloging Log <strong></strong></a></div>
         </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+        <div class="box">
 <section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/first-post-on-my-sweet-new-blog.html" rel="bookmark"
-           title="Permalink to First Post on My Sweet New Blog">First Post on My Sweet New Blog</a></h1>
-    </header>
-
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2020-08-09T10:09:00+10:00">
-                Published: Sun 09 August 2020
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/ben-castan.html">Ben Castan</a>
-        </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->      <h1>I am On My Way To Internet Fame and Fortune!</h1>
+  <header class="post">
+    <h1 class="entry-title">
+      First Post on My Sweet New Blog
+    </h1>
+  </header>
+  <footer class="post-info">
+    <abbr>
+      Sun 09 August 2020 
+         By <a class="url fn" href="https://bencastan.github.io/author/ben-castan.html">Ben Castan</a>
+  
+    </abbr>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <h1>I am On My Way To Internet Fame and Fortune!</h1>
 <p>This is my first post on my new blog. While not super informative it
 should convey my sense of excitement and eagerness to engage with you,
 out on the internet!</p>
-    </div><!-- /.entry-content -->
-
-  </article>
+  </div><!-- /.entry-content -->
 </section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
+            <hr/>
+            <footer id="contentinfo" class="footer">
+                <div>
+                    <a href="https://bencastan.github.io">BenC</a> (2012)
+                </div>
+                <div>
+                    This work is licensed under <a rel="license" href="http://opensource.org/licenses/bsd-3-clause">3 clause BSD</a>. Source code available on <a rel="source code" href="https://github.com/slok/blog">Github</a>
+                </div>
+                <div>
+                    powered by <a href="http://getpelican.com/">Pelican</a>
+                    and <a href="http://python.org">Python</a>. 
+                    <a href="http://github.com/slok/iris">Theme</a> by <a href="http://xlarrakoetxea.org">Xabier Larrakoetxea</a> based on <a href="http://flask.pocoo.org/">Flask</a> theme
+                </div>
+                <div>
+                    Social icons (font awesome) by <a href="http://fortawesome.github.com/Font-Awesome/"> fort awesome</a>.
+                    <a href="http://www.google.com/webfonts/specimen/The+Girl+Next+Door">Title</a>, <a href="http://www.google.com/webfonts/specimen/Marcellus">headers</a> and <a href="http://www.google.com/webfonts/specimen/Inconsolata">source code</a> fonts by google fonts
+                </div>
                 <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+                        <a href="#"><i class="icon-You can add links in your config file"></i>  </a>
+                        <a href="#"><i class="icon-Another social link"></i>  </a>
+                </div>
+            </footer><!-- /#contentinfo -->
+        </div>
+        <!--Add statistycs-->
 
 </body>
 </html>
