@@ -1,0 +1,10 @@
+date: 2020-08-09 10:09
+author: Ben Castan
+
+# 2nd post for my Blog, This looks interesting.
+
+https://opensource.com/downloads/kubernetes-raspberry-pi
+
+You get to download a PDF and play with some pretty fun things here. 
+Seems it may require several RasPi or other SBC maybe I can give this a try and 
+report on it as I go.
