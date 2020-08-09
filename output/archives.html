@@ -1,58 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <title>My Bloging Log</title>
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://bencastan.github.io/theme/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="https://bencastan.github.io/theme/css/pygments.css" type="text/css" />
+        <link rel="stylesheet" href="https://bencastan.github.io/theme/css/font-awesome.css" type="text/css" />
         <meta charset="utf-8" />
-        <title>My Blogalog</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Blogalog Atom Feed" />
+      
+
+        <!-- Javascript-->
+        <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script async type="text/javascript"> 
+        $(function() {
+            function invisibleMenu() {
+                var now = 0;
+                var pixels = 300;
+                var opacity = -1;
+
+                var move = function() {
+                    now = $(window).scrollTop();
+                    if (now > pixels && opacity !== 0)
+                        opacity = 0;
+                    else if (now < pixels){
+                        // Depends on the position not if scrolls down or up
+                        opacity = (1 - now/pixels);
+                    }
+                    $("div.navigation").css({"opacity": opacity});
+                }
+                $(window).scroll(move);
+                move();
+            }
+            invisibleMenu();
+          });
+          </script> 
 </head>
 
 <body id="index" class="home">
+     <div class="navigation">
+        <ol class="nav">
+          <li><a href="https://bencastan.github.io">Blog</a> </li>
+          <li class="current"><a href="https://bencastan.github.io/archives.html">Archive</a></li>
+          <li><a href="https://bencastan.github.io/tags.html">Tags</a> </li>
+          <li><a href="https://bencastan.github.io/">RSS</a> </li>
+        </ol>
+      </div>
         <header id="banner" class="body">
-                <h1><a href="/">My Blogalog </a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/category/misc.html">misc</a></li>
-                </ul></nav>
+                <div class="banner"><a href="https://bencastan.github.io">My Bloging Log <strong></strong></a></div>
         </header><!-- /#banner -->
-<section id="content" class="body">
-<h1>Archives for My Blogalog</h1>
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+        <div class="box">
+<h2>Archives:</h2>
 
-<dl>
-    <dt>Sun 09 August 2020</dt>
-    <dd><a href="/Kubernetes-on-Rasapberry-Pi.html">Kubernetes for RaspberryPi</a></dd>
-    <dt>Sun 09 August 2020</dt>
-    <dd><a href="/first-post-on-my-sweet-new-blog.html">First Post on My Sweet New Blog</a></dd>
-</dl>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
+<table class="archives">
+    <tr>
+        <td>Sun 09 August 2020</td>
+        <td><a href="https://bencastan.github.io/Kubernetes-on-Rasapberry-Pi.html">Kubernetes for RaspberryPi</a></td>
+    </tr>
+    <tr>
+        <td>Sun 09 August 2020</td>
+        <td><a href="https://bencastan.github.io/first-post-on-my-sweet-new-blog.html">First Post on My Sweet New Blog</a></td>
+    </tr>
+</table>
+            <hr/>
+            <footer id="contentinfo" class="footer">
+                <div>
+                    <a href="https://bencastan.github.io">BenC</a> (2012)
+                </div>
+                <div>
+                    This work is licensed under <a rel="license" href="http://opensource.org/licenses/bsd-3-clause">3 clause BSD</a>. Source code available on <a rel="source code" href="https://github.com/slok/blog">Github</a>
+                </div>
+                <div>
+                    powered by <a href="http://getpelican.com/">Pelican</a>
+                    and <a href="http://python.org">Python</a>. 
+                    <a href="http://github.com/slok/iris">Theme</a> by <a href="http://xlarrakoetxea.org">Xabier Larrakoetxea</a> based on <a href="http://flask.pocoo.org/">Flask</a> theme
+                </div>
+                <div>
+                    Social icons (font awesome) by <a href="http://fortawesome.github.com/Font-Awesome/"> fort awesome</a>.
+                    <a href="http://www.google.com/webfonts/specimen/The+Girl+Next+Door">Title</a>, <a href="http://www.google.com/webfonts/specimen/Marcellus">headers</a> and <a href="http://www.google.com/webfonts/specimen/Inconsolata">source code</a> fonts by google fonts
+                </div>
                 <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+                        <a href="#"><i class="icon-You can add links in your config file"></i>  </a>
+                        <a href="#"><i class="icon-Another social link"></i>  </a>
+                </div>
+            </footer><!-- /#contentinfo -->
+        </div>
+        <!--Add statistycs-->
 
 </body>
 </html>
