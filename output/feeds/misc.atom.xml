@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>My Bloging Log - misc</title><link href="https://bencastan.github.io/" rel="alternate"></link><link href="https://bencastan.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://bencastan.github.io/</id><updated>2020-08-09T10:09:00+10:00</updated><entry><title>Kubernetes for RaspberryPi</title><link href="https://bencastan.github.io/Kubernetes-on-Rasapberry-Pi.html" rel="alternate"></link><published>2020-08-09T10:09:00+10:00</published><updated>2020-08-09T10:09:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2020-08-09:/Kubernetes-on-Rasapberry-Pi.html</id><summary type="html">&lt;h1&gt;2nd post for my Blog, This looks interesting.&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Bloging Log - misc</title><link href="https://bencastan.github.io/" rel="alternate"></link><link href="https://bencastan.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://bencastan.github.io/</id><updated>2020-08-12T05:57:00+10:00</updated><entry><title>Stick that up your PiHole</title><link href="https://bencastan.github.io/pihole_install.html" rel="alternate"></link><published>2020-08-12T05:57:00+10:00</published><updated>2020-08-12T05:57:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2020-08-12:/pihole_install.html</id><summary type="html">&lt;h1&gt;4th post for my Blog, This is interesting.&lt;/h1&gt;
+&lt;p&gt;Check out &lt;a href="https://pi-hole.net"&gt;https://pi-hole.net&lt;/a&gt; an excellent add blocker that can be run on many platforms I have used the RaspBerryPi version.&lt;/p&gt;
+&lt;p&gt;Install could not be easier and then using it is seamless.
+Much Kudos to the Creators of this, this weekend …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;4th post for my Blog, This is interesting.&lt;/h1&gt;
+&lt;p&gt;Check out &lt;a href="https://pi-hole.net"&gt;https://pi-hole.net&lt;/a&gt; an excellent add blocker that can be run on many platforms I have used the RaspBerryPi version.&lt;/p&gt;
+&lt;p&gt;Install could not be easier and then using it is seamless.
+Much Kudos to the Creators of this, this weekend I will get around to moving it to a RasPi Mini and then let it run wild on the network.&lt;/p&gt;
+&lt;p&gt;Also thanks to Brittany for alerting me to this.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Kubernetes for RaspberryPi image Built</title><link href="https://bencastan.github.io/Kubernetes-on-Rasapberry-Pi-built.html" rel="alternate"></link><published>2020-08-10T19:34:00+10:00</published><updated>2020-08-10T19:34:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2020-08-10:/Kubernetes-on-Rasapberry-Pi-built.html</id><summary type="html">&lt;h1&gt;3rd post for my Blog.&lt;/h1&gt;
+&lt;p&gt;So the process seems wordy and daunting, it was not. I was able to use a
+RaspberryPi to do the build and tomorrow I will copy the image to the SD Card
+and test out the boot up.
+Luckily for me I have multiple RasPi's …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;3rd post for my Blog.&lt;/h1&gt;
+&lt;p&gt;So the process seems wordy and daunting, it was not. I was able to use a
+RaspberryPi to do the build and tomorrow I will copy the image to the SD Card
+and test out the boot up.
+Luckily for me I have multiple RasPi's so I will be working towards a 3 Pi Cluster.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Kubernetes for RaspberryPi</title><link href="https://bencastan.github.io/Kubernetes-on-Rasapberry-Pi.html" rel="alternate"></link><published>2020-08-09T10:09:00+10:00</published><updated>2020-08-09T10:09:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2020-08-09:/Kubernetes-on-Rasapberry-Pi.html</id><summary type="html">&lt;h1&gt;2nd post for my Blog, This looks interesting.&lt;/h1&gt;
 &lt;p&gt;Over at &lt;a href="https://opensource.com/downloads/kubernetes-raspberry-pi"&gt;https://opensource.com/downloads/kubernetes-raspberry-pi&lt;/a&gt; is an interesting
 article on how to make a Kubernetes cluster with Raspberry Pi's.&lt;/p&gt;
 &lt;p&gt;You get to download a PDF and play with some pretty fun things here. 
