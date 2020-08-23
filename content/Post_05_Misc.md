@@ -1,6 +1,6 @@
 title: Misc Stuff that needs doing
 author: Ben Castan
-date: 2020-08-23
+slug: 
 status: published
 
 # 5th post for my Blog.
