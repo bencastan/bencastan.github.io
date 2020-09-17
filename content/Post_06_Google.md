@@ -1,11 +1,11 @@
 title: Google Courses
 author: Ben Castan
-date: 2020-09-17
+date: 2020-09-01
 status: published
 
-# 7th post for my Blog.
+# 6th post for my Blog.
 
-There has been lots and lots fo chatter and articles on the interwebs in the past few weeks about 
+There has been lots and lots of chatter and articles on the interwebs in the past few weeks about 
 Google's Genius? Courses. These courses are offered on Coursera.org amd seem reasonable in price.
 One such article is here. <https://entrepreneurshandbook.co/googles-genius-49-mo-course-is-about-to-replace-college-degrees-340f459aaa9b>
 
