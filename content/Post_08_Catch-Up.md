@@ -1,7 +1,7 @@
 title: It was fun, but!
 author: Ben Castan
 date: 2021-03-12
-
+status: published
 
 # 8th post for my Blog.
 
