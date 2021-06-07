@@ -3,14 +3,6 @@
 &lt;p&gt;Been plodding away at the "New and Improved Flask Mega-Tutorial.
 https://courses.miguelgrinberg.com/courses/enrolled/336779
 Have been able to get through a surprisingly amount of information and have been learning.
-Once I get tot he end I will go back as I wnat …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;11th post for my Blog.&lt;/h1&gt;
-&lt;p&gt;Been plodding away at the "New and Improved Flask Mega-Tutorial.
-https://courses.miguelgrinberg.com/courses/enrolled/336779
-Have been able to get through a surprisingly amount of information and have been learning.
-Once I get tot he end I will go back as I wnat to make some changes and add some features&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Flasky-lishous</title><link href="https://bencastan.github.io/flasky-lishous.html" rel="alternate"></link><published>2021-06-07T00:00:00+10:00</published><updated>2021-06-07T00:00:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2021-06-07:/flasky-lishous.html</id><summary type="html">&lt;h1&gt;11th post for my Blog.&lt;/h1&gt;
-&lt;p&gt;Been plodding away at the "New and Improved Flask Mega-Tutorial.
-https://courses.miguelgrinberg.com/courses/enrolled/336779
-Have been able to get through a surprisingly amount of information and have been learning.
 Once I get tot he end I will go back as I want …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;11th post for my Blog.&lt;/h1&gt;
 &lt;p&gt;Been plodding away at the "New and Improved Flask Mega-Tutorial.
 https://courses.miguelgrinberg.com/courses/enrolled/336779
@@ -19,7 +11,37 @@ Once I get tot he end I will go back as I want to make some changes and add some
 Delete or edit a Post
 Use the basics of this tutorial to build some other web based apps that I have been thinking of.
 It's been a good experience and fun to do, so if you ar ein the market for a Flask Tutorial then I can recommend this one.&lt;/p&gt;
-&lt;p&gt;Fun be had!&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Grrr!</title><link href="https://bencastan.github.io/grrr.html" rel="alternate"></link><published>2021-03-21T00:00:00+11:00</published><updated>2021-03-21T00:00:00+11:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2021-03-21:/grrr.html</id><summary type="html">&lt;h1&gt;9th post for my Blog.&lt;/h1&gt;
+&lt;p&gt;Fun be had!&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Bye Bye</title><link href="https://bencastan.github.io/bye-bye.html" rel="alternate"></link><published>2021-04-01T00:00:00+11:00</published><updated>2021-04-01T00:00:00+11:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2021-04-01:/bye-bye.html</id><summary type="html">&lt;h1&gt;10th post for my Blog.&lt;/h1&gt;
+&lt;p&gt;For the past 5 months I have been using a 16” rMBP with super specifications:
+MacBook Pro 16-Inch 2019
+2.4 GHz 8-Core Intel Core i9
+32Gb 2670 Mhz DDR4
+Intel UDH Graphics 630 1536 MB&lt;/p&gt;
+&lt;p&gt;In no way is this a suitable laptop for …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;10th post for my Blog.&lt;/h1&gt;
+&lt;p&gt;For the past 5 months I have been using a 16” rMBP with super specifications:
+MacBook Pro 16-Inch 2019
+2.4 GHz 8-Core Intel Core i9
+32Gb 2670 Mhz DDR4
+Intel UDH Graphics 630 1536 MB&lt;/p&gt;
+&lt;p&gt;In no way is this a suitable laptop for what I do, it’s overkill beyond and was only purchased as my previous employer stated this is what was required. I did point out that it was overly spiced for what I do, but they said just do it. &lt;/p&gt;
+&lt;p&gt;For my Daily Driver, I have a 15” rMBP 
+2.2 GHz 6-Core Intel Core i7
+16Gb 2400 Mhz DDR4
+Intel UHD Graphics 630 1536 MB&lt;/p&gt;
+&lt;p&gt;My daily drive is more than adequate for my Coding / Scripting, watching Youtube, and occasionally Foxtel. 
+I use it to surf the web and apart from the keyboard, it has the older style rMBP keyboard and I worry 
+that the keys will play up. To overcome that I use a keyboard protector which imprints its self on the 
+screen when I close the lid, which is worse? The threat of a broken keyboard or the Screenprint. 
+On reflection the keyboard and particularly the layout is better on the newer MacBook, the location of the ESC key
+and the general feel and useability is much better to work with.
+Both MacBooks have 4 Thunderbolt ports and As I use a Thunderbolt Dock (Caldigit Ts3)  and a monitor with 
+Thunderbolt input (Dell U3219Q) it is all pretty simple to move around. By move around I mean that I have two
+working locations, in the spare room which is an office for me and a place for my teenagers to study and such, 
+and a purpose built room in my shed.&lt;/p&gt;
+&lt;p&gt;I am curious to try a new rMBP with the Apple Silicon but until they come up with a 14” or 
+Bigger model I am not inclined to make the change. There is soo  much speculation on the "Next" MacPro
+it is rather hard to work out what's best, so once again waiting is the option.&lt;/p&gt;
+&lt;p&gt;P.S. rMBP == retina MacBook Pro&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Grrr!</title><link href="https://bencastan.github.io/grrr.html" rel="alternate"></link><published>2021-03-21T00:00:00+11:00</published><updated>2021-03-21T00:00:00+11:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2021-03-21:/grrr.html</id><summary type="html">&lt;h1&gt;9th post for my Blog.&lt;/h1&gt;
 &lt;p&gt;I had the issue of updating my MX Linux system. It kept erroring out that it could not find the repo. A quick search led me to the MX-repo-tool that let me look for the local repos and then select the closest / fastest repo. Once …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;9th post for my Blog.&lt;/h1&gt;
 &lt;p&gt;I had the issue of updating my MX Linux system. It kept erroring out that it could not find the repo. A quick search led me to the MX-repo-tool that let me look for the local repos and then select the closest / fastest repo. Once that was done a refresh of the updater got all the required packages and then downloaded them and installed them. A reboot as this was from 91.2 to 19.3 and all good and now I have the latest version fo MX Linux. It's the same for my daily driver Linux Mint system so... Why is Windows so different. Ont he same hardware as the MX Linux system I try to download the latest updates and the system freezes. As in it locks up such that I have to power cycle the thing to get it to respond. Then it's back to the upgrade process which requires multiple restarts as well as doing the Upgrading whilst stopping and then upgrading whilst booting. I find it drawn out and confusing, and not surprising that the majority of Windows users view upgrades and security patches as a chore and something to be avoided.&lt;/p&gt;
 &lt;p&gt;Ughh, now Windows is giving an "Unmountable Boot Volume" error... &lt;/p&gt;
@@ -48,20 +70,6 @@ to recommend to others. The idea of giving people a quick and cost effective rec
 good. I don;t think it will replace a full Degree course but it will put a lot more people in a place where they can 
 learn / absorb the on the job practise to get better at their jobs. There is a mention in the Introductory videos of how 
 they hope to help Women to get into tech, a good idea just that I'm not sure how this will help. &lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Misc Stuff that needs doing</title><link href="https://bencastan.github.io/misc-stuff-that-needs-doing.html" rel="alternate"></link><published>2020-08-22T00:00:00+10:00</published><updated>2020-08-22T00:00:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2020-08-22:/misc-stuff-that-needs-doing.html</id><summary type="html">&lt;h1&gt;5th post for my Blog.&lt;/h1&gt;
-&lt;p&gt;Today was a day of maintenance. Cleaned a keyboard, re-imaged and updated  some Ras-Pi's,
-Swapped to a better 27" monitor for the test bench. Helped T get his Study Mojo back. Well I tried. 
-Listened to Early Alice Copper Albums, Overall a day of stuff …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;5th post for my Blog.&lt;/h1&gt;
-&lt;p&gt;Today was a day of maintenance. Cleaned a keyboard, re-imaged and updated  some Ras-Pi's,
-Swapped to a better 27" monitor for the test bench. Helped T get his Study Mojo back. Well I tried. 
-Listened to Early Alice Copper Albums, Overall a day of stuff. 
-Have started on a journey of playing with Web Scraping, using the Real Python article &lt;a href="https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNjIxNDUwMCIsImRlbGl2ZXJ5X2lkIjoiM3QwZWpvaWRzZHYwajVpaWhqZTIiLCJ1cmwiOiJodHRwczovL3JlYWxweXRob24uY29tL3B5dGhvbi13ZWItc2NyYXBpbmctcHJhY3RpY2FsLWludHJvZHVjdGlvbi8_X19zPW92OXdzbTdjbXZmMXVzcXdncGl5In0"&gt;https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNjIxNDUwMCIsImRlbGl2ZXJ5X2lkIjoiM3QwZWpvaWRzZHYwajVpaWhqZTIiLCJ1cmwiOiJodHRwczovL3JlYWxweXRob24uY29tL3B5dGhvbi13ZWItc2NyYXBpbmctcHJhY3RpY2FsLWludHJvZHVjdGlvbi8_X19zPW92OXdzbTdjbXZmMXVzcXdncGl5In0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The difference in speed between Ras-Pi 1 &amp;amp; Ras-Pi 4 is quite astounding, they are much much faster and still the same price. 
-It gives me hoe that a RISC Mac Won't be a bad thing at all. 
-Bug time::: MacOS BigSur, updates of the Beat causes Git and other things to stop working. 
-This seems ot be due to the version reporting for the OS. 
-The Solution, manually down load the latest Command LIne Tools beta from &lt;a href="https://developer.apple.com/download/more/"&gt;https://developer.apple.com/download/more/&lt;/a&gt;
-Go through he process of re-install. This is a bit tedious as so far each and every Beta Update has made this re-install 
-necessary...Sigh!!!&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Misc Stuff that needs doing</title><link href="https://bencastan.github.io/misc-stuff-that-needs-doing.html" rel="alternate"></link><published>2020-08-16T10:09:00+10:00</published><updated>2020-08-16T10:09:00+10:00</updated><author><name>Ben Castan</name></author><id>tag:bencastan.github.io,2020-08-16:/misc-stuff-that-needs-doing.html</id><summary type="html">&lt;h1&gt;5th post for my Blog.&lt;/h1&gt;
 &lt;p&gt;Today was a day of maintenance. Cleaned a keyboard, re-imaged and updated  some Ras-Pi's,
 Swapped to a better 27" monitor for the test bench. Helped T get his Study Mojo back. Well I tried. 
 Listened to Early Alice Copper Albums, Overall a day of stuff …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;5th post for my Blog.&lt;/h1&gt;
