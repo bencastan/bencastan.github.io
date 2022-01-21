@@ -1,4 +1,4 @@
-title: Flasky-lishous
+title: Flasky
 author: Ben Castan
 date: 2021-06-07
 status: published
