@@ -1,6 +1,6 @@
 title: Garuda Linux and USB Drives
 author: Ben Castan
-date: 2022-12-02
+date: 2022-01-12
 status: published
 
 # 15th post for my Blog.
