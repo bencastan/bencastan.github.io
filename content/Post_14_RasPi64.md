@@ -1,6 +1,6 @@
 title: RaspberryPi 64 Bit OS and Power supplies
 author: Ben Castan
-date: 2022-08-05
+date: 2022-02-05
 status: published
 
 # 14th post for my Blog.
