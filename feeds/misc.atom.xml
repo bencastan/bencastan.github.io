@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>My Bloging Log - misc</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2022-03-20T00:00:00+11:00</updated><entry><title>Ras Pi PoE Hat Fan speed</title><link href="/Blogging.html" rel="alternate"></link><published>2022-03-20T00:00:00+11:00</published><updated>2022-03-20T00:00:00+11:00</updated><author><name>Ben Castan</name></author><id>tag:None,2022-03-20:/Blogging.html</id><summary type="html">&lt;p&gt;Noisy fans and what to do&lt;/p&gt;</summary><content type="html">&lt;h1&gt;16th post for my Blog.&lt;/h1&gt;
-&lt;p&gt;Have been being annoyed by the constant whirrrr of the small fan on 
+&lt;p&gt;Have been being annoyed by the constant whirrrr of the small fan on
 a Raspberry Pi 4 PoE Hat. The fan just goes all the time.
 Did some searching and finally found the solution. Firstly for the version
 of Ubuntu I am using the files to be changed are located at
-'/boot/firmware/config.txt' and not '/boot/config.txt' as most siolutions say.&lt;/p&gt;
+&lt;code&gt;boot/firmware/config.txt&lt;/code&gt; and not &lt;code&gt;/boot/config.txt&lt;/code&gt; as most solutions say.&lt;/p&gt;
 &lt;p&gt;So after braving the joy that is StackOverflow I found this link,
 &lt;a href="https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu"&gt;https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu&lt;/a&gt;
 It sorted out the location and by applying the fix and a reboot it works.
-I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far. 
+I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far.
 It's not a hot day.
 Here are the lines I added.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;dtoverlay=rpi-poe-plus

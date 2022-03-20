@@ -33,15 +33,15 @@
 <p>In <a href="/category/misc.html">misc</a>.</p>
 <p>tags: <a href="/tag/raspi.html">RasPi</a> </p>
 </footer><!-- /.post-info --><h1>16th post for my Blog.</h1>
-<p>Have been being annoyed by the constant whirrrr of the small fan on 
+<p>Have been being annoyed by the constant whirrrr of the small fan on
 a Raspberry Pi 4 PoE Hat. The fan just goes all the time.
 Did some searching and finally found the solution. Firstly for the version
 of Ubuntu I am using the files to be changed are located at
-'/boot/firmware/config.txt' and not '/boot/config.txt' as most siolutions say.</p>
+<code>boot/firmware/config.txt</code> and not <code>/boot/config.txt</code> as most solutions say.</p>
 <p>So after braving the joy that is StackOverflow I found this link,
 <a href="https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu">https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu</a>
 It sorted out the location and by applying the fix and a reboot it works.
-I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far. 
+I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far.
 It's not a hot day.
 Here are the lines I added.</p>
 <div class="highlight"><pre><span></span><code>dtoverlay=rpi-poe-plus
