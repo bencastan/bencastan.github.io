@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>My Bloging Log</title>
+        <title>My Bloging Log - RasPi</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Bloging Log Atom Feed" />
 </head>
@@ -18,44 +18,41 @@
                     <li><a href="/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-<h1>Archives for My Bloging Log</h1>
 
-<dl>
-    <dt>Sun 20 March 2022</dt>
-    <dd><a href="/Blogging.html">Ras Pi PoE Hat Fan speed</a></dd>
-    <dt>Mon 14 February 2022</dt>
-    <dd><a href="/garuda-linux-and-usb-drives.html">Garuda Linux and USB Drives</a></dd>
-    <dt>Sat 05 February 2022</dt>
-    <dd><a href="/raspberrypi-64-bit-os-and-power-supplies.html">RaspberryPi 64 Bit OS and Power supplies</a></dd>
-    <dt>Sun 23 January 2022</dt>
-    <dd><a href="/unlucky-or-not.html">Unlucky or not?</a></dd>
-    <dt>Fri 21 January 2022</dt>
-    <dd><a href="/very-lazy.html">Very Lazy</a></dd>
-    <dt>Mon 07 June 2021</dt>
-    <dd><a href="/flasky.html">Flasky</a></dd>
-    <dt>Mon 07 June 2021</dt>
-    <dd><a href="/flasky-lishous.html">Flasky-lishous</a></dd>
-    <dt>Sun 21 March 2021</dt>
-    <dd><a href="/grrr.html">Grrr!</a></dd>
-    <dt>Fri 12 March 2021</dt>
-    <dd><a href="/it-was-fun-but.html">It was fun, but!</a></dd>
-    <dt>Thu 17 September 2020</dt>
-    <dd><a href="/ive-been-slack.html">I've been slack</a></dd>
-    <dt>Tue 01 September 2020</dt>
-    <dd><a href="/google-courses.html">Google Courses</a></dd>
-    <dt>Sat 22 August 2020</dt>
-    <dd><a href="/misc-stuff-that-needs-doing.html">Misc Stuff that needs doing</a></dd>
-    <dt>Wed 12 August 2020</dt>
-    <dd><a href="/pihole_install.html">Stick that up your PiHole</a></dd>
-    <dt>Mon 10 August 2020</dt>
-    <dd><a href="/Kubernetes-on-Rasapberry-Pi-built.html">Kubernetes for RaspberryPi image Built</a></dd>
-    <dt>Sun 09 August 2020</dt>
-    <dd><a href="/Kubernetes-on-Rasapberry-Pi.html">Kubernetes for RaspberryPi</a></dd>
-    <dt>Sun 09 August 2020</dt>
-    <dd><a href="/first-post-on-my-sweet-new-blog.html">First Post on My Sweet New Blog</a></dd>
-</dl>
-</section>
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/Blogging.html">Ras Pi PoE Hat Fan speed</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2022-03-20T00:00:00+11:00">
+                Published: Sun 20 March 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/ben-castan.html">Ben Castan</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+<p>tags: <a href="/tag/raspi.html">RasPi</a> </p>
+</footer><!-- /.post-info --><h1>16th post for my Blog.</h1>
+<p>Have been being annoyed by the constant whirrrr of the small fan on 
+a Raspberry Pi 4 PoE Hat. The fan just goes all the time.
+Did some searching and finally found the solution. Firstly for the version
+of Ubuntu I am using the files to be changed are located at
+'/boot/firmware/config.txt' and not '/boot/config.txt' as most siolutions say.</p>
+<p>So after braving the joy that is StackOverflow I found this link,
+<a href="https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu">https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu</a>
+It sorted out the location and by applying the fix and a reboot it works.
+I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far. 
+It's not a hot day.
+Here are the lines I added.</p>
+<div class="highlight"><pre><span></span><code>dtoverlay=rpi-poe-plus
+dtparam=poe_fan_temp0=70000,poe_fan_temp0_hyst=1000
+dtparam=poe_fan_temp1=75000,poe_fan_temp1_hyst=5000
+dtparam=poe_fan_temp2=80000,poe_fan_temp2_hyst=5000
+dtparam=poe_fan_temp3=82000,poe_fan_temp3_hyst=2000
+</code></pre></div>
+
+<p>And of course a reboot is needed to apply these settings.</p>                </article>
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>

@@ -7,7 +7,7 @@
         <title>Ras Pi PoE Hat Fan speed</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Bloging Log Atom Feed" />
-        <meta name="description" content="16th post for my Blog. Have been being annoyed by the constant whirrrr of the small fan on a Raspberry Pi 4 PoE Hat. The fan just goes all the..." />
+        <meta name="description" content="Noisy fans and what to do" />
 </head>
 
 <body id="index" class="home">
@@ -23,7 +23,7 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="/ras-pi-poe-hat-fan-speed.html" rel="bookmark"
+        <a href="/Blogging.html" rel="bookmark"
            title="Permalink to Ras Pi PoE Hat Fan speed">Ras Pi PoE Hat Fan speed</a></h1>
     </header>
 
@@ -37,7 +37,7 @@
                 By                         <a class="url fn" href="/author/ben-castan.html">Ben Castan</a>
         </address>
 <p>In <a href="/category/misc.html">misc</a>.</p>
-
+<p>tags: <a href="/tag/raspi.html">RasPi</a> </p>
 </footer><!-- /.post-info -->      <h1>16th post for my Blog.</h1>
 <p>Have been being annoyed by the constant whirrrr of the small fan on 
 a Raspberry Pi 4 PoE Hat. The fan just goes all the time.
@@ -47,8 +47,8 @@ of Ubuntu I am using the files to be changed are located at
 <p>So after braving the joy that is StackOverflow I found this link,
 <a href="https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu">https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu</a>
 It sorted out the location and by applying the fix and a reboot it works.
-I am monitoring the RasPi with inxi -s and th etemp does not get above 70DegC so far. It's
-not a hot day.
+I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far. 
+It's not a hot day.
 Here are the lines I added.</p>
 <div class="highlight"><pre><span></span><code>dtoverlay=rpi-poe-plus
 dtparam=poe_fan_temp0=70000,poe_fan_temp0_hyst=1000
