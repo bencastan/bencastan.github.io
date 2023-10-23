@@ -4,9 +4,10 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>My Bloging Log - RasPi</title>
+        <title>Ras I've been away</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Bloging Log Atom Feed" />
+        <meta name="description" content="17th post for my Blog. It's been a long time since I have posted on this blog, and that is due to a significant health issue. I think I'm back to..." />
 </head>
 
 <body id="index" class="home">
@@ -15,44 +16,57 @@
                 <nav><ul>
                     <li><a href="/pages/unlucky-or-not.html">Unlucky or not?</a></li>
                     <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/category/misc.html">misc</a></li>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/ras-ive-been-away.html" rel="bookmark"
+           title="Permalink to Ras I've been away">Ras I've been away</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/Blogging.html">Ras Pi PoE Hat Fan speed</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-03-20T00:00:00+11:00">
-                Published: Sun 20 March 2022
+        <abbr class="published" title="2023-10-23T00:00:00+11:00">
+                Published: Mon 23 October 2023
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/ben-castan.html">Ben Castan</a>
         </address>
 <p>In <a href="/category/misc.html">misc</a>.</p>
-<p>tags: <a href="/tag/raspi.html">RasPi</a> </p>
-</footer><!-- /.post-info --><h1>16th post for my Blog.</h1>
-<p>Have been being annoyed by the constant whirrrr of the small fan on
-a Raspberry Pi 4 PoE Hat. The fan just goes all the time.
-Did some searching and finally found the solution. Firstly for the version
-of Ubuntu I am using the files to be changed are located at
-<code>boot/firmware/config.txt</code> and not <code>/boot/config.txt</code> as most solutions say.</p>
-<p>So after braving the joy that is StackOverflow I found this link,
-<a href="https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu">https://stackoverflow.com/questions/68369382/raspberry-pi-poe-fan-hat-with-ubuntu</a>
-It sorted out the location and by applying the fix and a reboot it works.
-I am monitoring the RasPi with inxi -s and the temp does not get above 70DegC, so far.
-It's not a hot day.
-Here are the lines I added.</p>
-<div class="highlight"><pre><span></span><code>dtoverlay=rpi-poe-plus
-dtparam=poe_fan_temp0=70000,poe_fan_temp0_hyst=1000
-dtparam=poe_fan_temp1=75000,poe_fan_temp1_hyst=5000
-dtparam=poe_fan_temp2=80000,poe_fan_temp2_hyst=5000
-dtparam=poe_fan_temp3=82000,poe_fan_temp3_hyst=2000
-</code></pre></div>
 
-<p>And of course a reboot is needed to apply these settings.</p>                </article>
-            </aside><!-- /#featured -->
+</footer><!-- /.post-info -->      <h1>17th post for my Blog.</h1>
+<div class="highlight"><pre><span></span><code>It&#39;s been a long time since I have posted on this blog, and that
+is due to a significant health issue. I think I&#39;m back to a stage
+where I can start posting regularly as long as I can find 
+subjects worth posting about.
+
+<span class="gs">**Firstly and as a big one**</span>, I have retired. 
+    Retiring was a big decision based on recovering from a 
+    significant health issue.
+
+Many changes have happened in the tech world in the past twelve 
+months, so where do you start?
+I have upgraded to an M2 MacBook Air for my daily driver. 
+Buying this rMBA has been a good decision, and I have not found 
+any glaring issues or complaints. I find the keyboard and screen
+more than acceptable for daily use and have even stopped using my
+32&quot; monitor.
+My Linux systems are now running Linux Mint 21.2 and are 
+performing well. They both have AMD 1X CPUs and not very 
+high-range graphics cards of the Nvidia variety. 
+I am impressed with how well these 4-year-old CPUs perform, 
+and I wonder why the push for newer CPUs is so constant. 
+Because I don&#39;t game with these systems, I don&#39;t need to keep 
+updating the hardware.
+</code></pre></div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
